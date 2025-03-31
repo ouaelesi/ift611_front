@@ -205,7 +205,7 @@ const MoviePage = () => {
 
           {/* Comments List */}
           <div className="space-y-8">
-            {comments?.map((c) => (
+            {comments?.map((c:any) => (
               <div key={c.id} className="border-b pb-6 last:border-0">
                 <div className="flex items-start space-x-4">
                   <UserCircleIcon className="h-10 w-10 text-gray-400" />
